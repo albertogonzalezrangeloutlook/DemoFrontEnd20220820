@@ -1,4 +1,4 @@
-| Language | Platform | Author |
+| Language | Platform | Author |.
 | -------- | --------|--------|
 | HTML |  Azure Web App| |
 
