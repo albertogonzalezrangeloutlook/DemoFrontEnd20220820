@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: "search", component: SearchComponent },
   { path: "detail", component: DetailComponent },
   { path: "analitic", component: AnaliticComponent },
+  { path: "", component: HomeComponent },
   { path: "home", component: HomeComponent },
 ];
 
@@ -30,5 +31,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
 

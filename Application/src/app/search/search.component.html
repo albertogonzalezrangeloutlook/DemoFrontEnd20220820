@@ -1,1 +1,17 @@
-<p>search works!</p>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
+  
+  <div class="container">
+    <form  method="post">
+      <p>Búsqueda</p>
+      <label><p>Ingresar el Id del CLiente</p></label>
+      <input type="username"
+      [(ngModel)]="CLIENTNUM"
+      name="Id del Cliente"
+      placeholder="00000000000"
+      required="required"><br>
+      
+      <input  type="submit" (click)="seach()" value="Buscar"><br>
+    </form>
+  </div>

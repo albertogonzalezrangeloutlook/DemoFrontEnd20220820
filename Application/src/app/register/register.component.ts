@@ -18,8 +18,12 @@ export class RegisterComponent implements OnInit {
     this.password='';
   }
   register() {
+    
     console.log(this.username);
     console.log(this.password);
+
+    // this.router.navigate(['/search']);
+
     const user = {username: this.username, password: this.password};
     this.userService.register(user).subscribe( 
       (data: any) => 
